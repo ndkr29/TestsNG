@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TestCase1">
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="author" value="yadagiri"/>
+    <classes>
+      <class name="com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation">
+      <methods>
+      <include name="TestCase1"></include>
+      </methods>
+      </class>
+       
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="TestCase2">
+  <parameter name="browserName" value="chrome"/>
+   <parameter name="author" value="jeevan"/>
+    <classes>
+      <class name="com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation">
+      <methods>
+      <include name="TestCase2"></include>
+      </methods>
+      </class>
+       
+    </classes>
+  </test>
+  
+   <test thread-count="5" name="TestCase3">
+   <parameter name="browserName" value="chrome"/>
+     <parameter name="author" value="gita"/>
+    <classes>
+      <class name="com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation">
+      <methods>
+      <include name="TestCase3"></include>
+      </methods>
+      </class>
+       
+    </classes>
+  </test>
+</suite> <!-- Suite -->
