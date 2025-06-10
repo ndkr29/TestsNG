@@ -12,7 +12,7 @@ public class ExpectedException {
 	
 	@Test(expectedExceptions = {NoSuchElementException.class})
 	public void testmethod1() throws InterruptedException {
-		
+		//code
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.iasys.co.in/");
