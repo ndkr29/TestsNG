@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-15T15:15:54 BST" name="Suite" finished-at="2025-04-15T15:16:46 BST" duration-ms="52398">
+    <groups>
+      <group name="regression">
+        <method signature="ExtentReportsIntegrationTestNGAnnotation.TestCase2()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@470734c3]" name="TestCase2" class="com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ExtentReportsIntegrationTestNGAnnotation.TestCase1()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@6221a451]" name="TestCase1" class="com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation"/>
+        <method signature="ExtentReportsIntegrationTestNGAnnotation.TestCase2()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@470734c3]" name="TestCase2" class="com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ExtentReportsIntegrationTestNGAnnotation.TestCase3()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@25ce9dc4]" name="TestCase3" class="com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-04-15T15:15:54 BST" name="TestCase1" finished-at="2025-04-15T15:16:07 BST" duration-ms="13882">
+      <class name="com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation">
+        <test-method is-config="true" signature="InitialiseBrowser(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@6221a451]" started-at="2025-04-15T15:15:54 BST" name="InitialiseBrowser" finished-at="2025-04-15T15:16:07 BST" duration-ms="13098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60dd0587]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialiseBrowser -->
+        <test-method signature="TestCase1()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@6221a451]" started-at="2025-04-15T15:16:07 BST" name="TestCase1" finished-at="2025-04-15T15:16:07 BST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@6221a451]" started-at="2025-04-15T15:16:07 BST" name="checkstatus" finished-at="2025-04-15T15:16:07 BST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation.TestCase1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestCase1 status=SUCCESS method=ExtentReportsIntegrationTestNGAnnotation.TestCase1()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@6221a451] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method is-config="true" signature="teardoen()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@6221a451]" started-at="2025-04-15T15:16:07 BST" name="teardoen" finished-at="2025-04-15T15:16:07 BST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardoen -->
+      </class> <!-- com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation -->
+    </test> <!-- TestCase1 -->
+    <test started-at="2025-04-15T15:16:08 BST" name="TestCase2" finished-at="2025-04-15T15:16:28 BST" duration-ms="20657">
+      <class name="com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation">
+        <test-method is-config="true" signature="InitialiseBrowser(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@470734c3]" started-at="2025-04-15T15:16:08 BST" name="InitialiseBrowser" finished-at="2025-04-15T15:16:22 BST" duration-ms="14030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77f905e3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialiseBrowser -->
+        <test-method signature="TestCase2()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@470734c3]" started-at="2025-04-15T15:16:22 BST" name="TestCase2" finished-at="2025-04-15T15:16:27 BST" duration-ms="5936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@470734c3]" started-at="2025-04-15T15:16:27 BST" name="checkstatus" finished-at="2025-04-15T15:16:27 BST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation.TestCase2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestCase2 status=SUCCESS method=ExtentReportsIntegrationTestNGAnnotation.TestCase2()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method is-config="true" signature="teardoen()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@470734c3]" started-at="2025-04-15T15:16:27 BST" name="teardoen" finished-at="2025-04-15T15:16:28 BST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardoen -->
+      </class> <!-- com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation -->
+    </test> <!-- TestCase2 -->
+    <test started-at="2025-04-15T15:16:28 BST" name="TestCase3" finished-at="2025-04-15T15:16:46 BST" duration-ms="17807">
+      <class name="com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation">
+        <test-method is-config="true" signature="initialiseEXtententReports()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@25ce9dc4]" started-at="2025-04-15T15:15:53 BST" name="initialiseEXtententReports" finished-at="2025-04-15T15:15:54 BST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseEXtententReports -->
+        <test-method is-config="true" signature="InitialiseBrowser(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@25ce9dc4]" started-at="2025-04-15T15:16:28 BST" name="InitialiseBrowser" finished-at="2025-04-15T15:16:40 BST" duration-ms="12259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@221a2068]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialiseBrowser -->
+        <test-method signature="TestCase3()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@25ce9dc4]" started-at="2025-04-15T15:16:40 BST" name="TestCase3" finished-at="2025-04-15T15:16:45 BST" duration-ms="4595" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[**********************data present expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: **********************data present expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertFalse(Assert.java:78)
+at com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation.TestCase3(ExtentReportsIntegrationTestNGAnnotation.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+        <test-method is-config="true" signature="checkstatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@25ce9dc4]" started-at="2025-04-15T15:16:45 BST" name="checkstatus" finished-at="2025-04-15T15:16:45 BST" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation.TestCase3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestCase3 status=FAILURE method=ExtentReportsIntegrationTestNGAnnotation.TestCase3()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@25ce9dc4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method is-config="true" signature="teardoen()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@25ce9dc4]" started-at="2025-04-15T15:16:45 BST" name="teardoen" finished-at="2025-04-15T15:16:46 BST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardoen -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation@25ce9dc4]" started-at="2025-04-15T15:16:46 BST" name="generateExtentReports" finished-at="2025-04-15T15:16:47 BST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- com.iasys.extentreportsintegrationtestNG.ExtentReportsIntegrationTestNGAnnotation -->
+    </test> <!-- TestCase3 -->
+  </suite> <!-- Suite -->
+</testng-results>

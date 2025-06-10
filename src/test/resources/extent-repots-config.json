@@ -1,0 +1,13 @@
+{
+  "theme": "DARK",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "Doc tile1",
+  "reportName": "Report Name2",
+  "timeStampFormat": "dd-MM-YYYY hh:mm:ss",
+  "js": "document.getElementsByClassName('logo')[0].style.display='none';",
+  "css": ".badge-primary{background-color:#df65a3}"
+}
